@@ -1,8 +1,6 @@
 # Projeto de Inteligência Artificial (SCC0230) — Abordagem A: Busca em Redes
 
-Repositório dedicado ao desenvolvimento e experimentação de algoritmos de busca clássicos e informados aplicados a **Redes Aleatórias**, desenvolvido para a disciplina de Inteligência Artificial do ICMC/USP.
-
----
+Repositório dedicado ao desenvolvimento e experimentação de algoritmos de busca clássicos e informados aplicados a **Redes Aleatórias**, desenvolvido para disciplina de Inteligência Artificial do ICMC/USP.
 
 ## 📂 Estrutura do Repositório
 
@@ -20,11 +18,10 @@ O projeto foi estruturado em módulos independentes e limpos (sem arquivos compa
 └── .gitignore                  # Arquivos ignorados pelo Git
 ```
 
----
-
 ## 🚀 Como Executar os Experimentos
 
 ### 1. Pré-requisitos
+
 Certifique-se de ter o Python 3 instalado juntamente com as bibliotecas `matplotlib` e `numpy` utilizadas para visualização e métricas:
 
 ```bash
@@ -32,13 +29,12 @@ pip install matplotlib numpy
 ```
 
 ### 2. Executar os Testes e Gerar Gráficos
+
 Para rodar todos os experimentos (`Experimento I`, `Experimento II` e `Experimento III`) e salvar automaticamente todos os gráficos e imagens nas subpastas `graficos/exp1`, `graficos/exp2` e `graficos/exp3`, execute:
 
 ```bash
 python main_experimentos.py
 ```
-
----
 
 ## 🧪 Descrição dos Experimentos Realizados
 
@@ -48,16 +44,15 @@ python main_experimentos.py
    * Salva imagens individuais detalhando o espaço de busca explorado e o caminho final percorrido para cada algoritmo.
 
 2. **Experimento II (Escalabilidade e Variação de Parâmetros):**
-   * Avalia redes de grande porte com $n = 2500$ vértices sob três configurações de probabilidade: $p \in \{5\%, 2.5\%, 1\%\}$ .
+   * Avalia redes de grande porte com $n = 2500$ vértices sob três configurações de probabilidade: $p \in \{5\%, 2.5\%, 1\}$.
    * Coleta métricas sobre **10 pares distintos de vértices**, reportando a **distância média percorrida**, o **tempo médio de execução** e o **desvio padrão** de cada algoritmo.
 
-3. **Experimento III (A vs. Dijkstra):**
+3. **Experimento III (A* vs. Dijkstra):**
    * Realiza um comparativo direto de eficiência entre o $A^*$ (com heurística de distância euclidiana) e o Algoritmo de Dijkstra.
    * Analisa o ganho expressivo de desempenho proporcionado pela poda de nós em redes de alta densidade.
 
----
-
 ## 🔍 Algoritmos Implementados
+
 * **Busca em Largura (BFS)**
 * **Busca em Profundidade (DFS)**
 * **Busca Gulosa (Best-First)**
