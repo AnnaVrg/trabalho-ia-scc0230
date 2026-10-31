@@ -48,11 +48,10 @@ python main_experimentos.py
    * Salva imagens individuais detalhando o espaço de busca explorado e o caminho final percorrido para cada algoritmo.
 
 2. **Experimento II (Escalabilidade e Variação de Parâmetros):**
-   * Avalia redes de grande porte com $n = 2500$ vértices sob três configurações de probabilidade:
-      $p \in \{5\%, 2.5\%, 1\%\}$ .
+   * Avalia redes de grande porte com $n = 2500$ vértices sob três configurações de probabilidade: $p \in \{5\%, 2.5\%, 1\%\}$ .
    * Coleta métricas sobre **10 pares distintos de vértices**, reportando a **distância média percorrida**, o **tempo médio de execução** e o **desvio padrão** de cada algoritmo.
 
-3. **Experimento III (A* vs. Dijkstra):**
+3. **Experimento III (A vs. Dijkstra):**
    * Realiza um comparativo direto de eficiência entre o $A^*$ (com heurística de distância euclidiana) e o Algoritmo de Dijkstra.
    * Analisa o ganho expressivo de desempenho proporcionado pela poda de nós em redes de alta densidade.
 
