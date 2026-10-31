@@ -1,14 +1,6 @@
 # Projeto de Inteligência Artificial (SCC0230) — Abordagem A: Busca em Redes
 
-Repositório dedicado ao desenvolvimento e experimentação de algoritmos de busca clássicos e informados aplicados a **Redes Aleatórias**, desenvolvido por um grupo de 4 estudantes da disciplina de Inteligência Artificial do ICMC/USP.
-
----
-
-## 👥 Integrantes do Grupo
-* Integrante 1
-* Integrante 2
-* Integrante 3
-* Integrante 4
+Repositório dedicado ao desenvolvimento e experimentação de algoritmos de busca clássicos e informados aplicados a **Redes Aleatórias**, desenvolvido para a disciplina de Inteligência Artificial do ICMC/USP.
 
 ---
 
@@ -56,7 +48,7 @@ python main_experimentos.py
    * Salva imagens individuais detalhando o espaço de busca explorado e o caminho final percorrido para cada algoritmo.
 
 2. **Experimento II (Escalabilidade e Variação de Parâmetros):**
-   * Avalia redes de grande porte com $n = 2500$ vértices sob três configurações de probabilidade: $p \in \{5\%, 2.5\%, 1\%\}$.
+   * Avalia redes de grande porte com $n = 2500$ vértices sob três configurações de probabilidade: $p \in \{5\%, 2.5\%, 1\%\}$ .
    * Coleta métricas sobre **10 pares distintos de vértices**, reportando a **distância média percorrida**, o **tempo médio de execução** e o **desvio padrão** de cada algoritmo.
 
 3. **Experimento III (A* vs. Dijkstra):**
