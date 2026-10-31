@@ -481,7 +481,7 @@ def executar_experimentos_2_e_3():
             )
 
     print("\n" + "=" * 78)
-    print("A GERAR GRÁFICOS INDIVIDUAIS NAS SUBPASTAS (graficos/exp2 e graficos/exp3)")
+    print("Gera os gráficos nas pastas (graficos/exp2 e graficos/exp3)")
     print("=" * 78)
     plotar_graficos_exp2_e_exp3(historico, configuracoes_p)
 
